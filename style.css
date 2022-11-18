@@ -39,3 +39,14 @@ form label {
 }
 
 
+.hidden {
+    display: none;
+    
+}
+
+.results{
+    background-color: rgb(220, 220, 220);
+    width: 400px;
+    margin: auto;
+    padding: 10px;
+}

@@ -1,3 +1,5 @@
+let quizForm = document.querySelector("form");
+let resultsBox = document.querySelector(".results");
 let answerButton = document.querySelector(".points");
 answerButton.addEventListener("click", handleForm);
 
@@ -8,6 +10,11 @@ function handleForm(){
        points += parseInt(answers[a].value, 10);
     }
     console.log(points);
-    alert(`You got ${points} / 10 points!`)
+
+    //alert(`You got ${points} / 10 points!`)
+    
+    quizForm.classList.toggle("hidden");
+    document.querySelector(".point-label").innerHTML = points;
+    resultsBox.classList.toggle("hidden");
 }
 
