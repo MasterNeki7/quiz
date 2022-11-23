@@ -12,9 +12,16 @@ function handleForm(){
     console.log(points);
 
     //alert(`You got ${points} / 10 points!`)
-    
+    if(points > 10){
     quizForm.classList.toggle("hidden");
     document.querySelector(".point-label").innerHTML = points;
     resultsBox.classList.toggle("hidden");
+    }
+
+    else if(points == 0|| points < 10 || points < 0){
+        quizForm.classList.toggle("hidden2");
+    document.querySelector(".point-label").innerHTML = points;
+    resultsBox.classList.toggle("hidden2");
+    }
 }
 

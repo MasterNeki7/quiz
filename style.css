@@ -44,9 +44,37 @@ form label {
     
 }
 
+.hidden2{
+    display: none;
+    
+}
+
 .results{
     background-color: rgb(220, 220, 220);
     width: 400px;
     margin: auto;
     padding: 10px;
+    
 }
+
+.results2{
+    background-color: rgb(220, 220, 220);
+    width: 400px;
+    margin: auto;
+    padding: 10px;
+}
+
+.question{
+    border: 2px solid black;
+    padding: 15px;
+}
+
+.social{
+    border: 2px solid black;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 400px;
+    background-color:  rgb(220, 220, 220);
+}
+
